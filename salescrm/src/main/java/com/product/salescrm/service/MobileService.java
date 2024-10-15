@@ -39,12 +39,12 @@ public class MobileService {
     }
 
     // Group mobiles by brand
-    public Map<String, List<Mobile>> getByBrand() {
+    public Map<String, List<Mobile>> getByBrand(String brand) {
         return jpaStreamer.stream(Mobile.class)
                 .collect(Collectors.groupingBy(Mobile::getBrand));
     }
 
-   public Map<Integer, List<Mobile>> getByRam(){
+   public Map<Integer, List<Mobile>> getByRam(int ramSize){
         return jpaStreamer.stream(Mobile.class)
         .collect(Collectors.groupingBy(Mobile::getRamSize));
     }
