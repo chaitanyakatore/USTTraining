@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",                // You can keep your target as is
+      "lib": ["es2015", "dom"],      // Ensure this line is present
+      "strict": true,                 // Enable strict type checking
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
