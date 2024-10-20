@@ -1,0 +1,15 @@
+create employee object with fields like email name and employee id with unique and tru to access all the data types
+
+2. create a theater application user can choose the seat selection where user can choose seat with his preferences
+if seat is full show him seat is full and also add cancellation policy to seats
+
+3. create employee objects find out the employee with department and their total salary by department vise segregatte this
+
+4. create some functions and develop a calculator application by using of typescript 
+
+5. design typescript applcicatiomn for the library managemnt system system, represrnt various entoty book author and library members 
+
+6. develop a to calculate the insurance of the premium on base of various factors 
+
+7. develop a hotel reservation system by using of typescript manage all list of hotel rooms all custmer to check in system and book room how many days they are stayig and calculate the cost on basis of their stays.
+
